@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: transparent; /* Fundo transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .pomodoro-container {
+    background-color: #223559;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    position: relative;
+  }
+  
+  #timerDisplay {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    width: 90px;
+    cursor: pointer;
+  }
+  
+  #sessionInfo {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #b0b0b0;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    color: #4CAF50;
+  }
+  
+  #alert {
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  input {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
