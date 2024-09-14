@@ -44,7 +44,7 @@ function startTimer(duration) {
         alertDiv.classList.remove('hidden'); // Mostrar alerta visual
         
         // Alterna entre Pomodoro e Pausa
-        if (document.getElementById('status').textContent === "Pomodoro") {
+        if (document.getElementById('status').textContent === "Time Student") {
           sessionCount++;
           if (sessionCount > totalSessions) {
             sessionCount = 1;
@@ -53,7 +53,7 @@ function startTimer(duration) {
           document.getElementById('status').textContent = "Short Break"; // Mudando para o modo de pausa
         } else {
           initialTime = pomodoroTime;
-          document.getElementById('status').textContent = "Pomodoro"; // Voltando ao modo Pomodoro
+          document.getElementById('status').textContent = "Time Student"; // Voltando ao modo Pomodoro
         }
 
         document.getElementById('sessionInfo').textContent = `${sessionCount} / ${totalSessions} sessions`;
@@ -112,7 +112,7 @@ resetButton.addEventListener('click', () => {
   timeLeft = initialTime;
 
   updateDisplay(Math.floor(initialTime / 60), initialTime % 60);
-  document.getElementById('status').textContent = "Pomodoro";
+  document.getElementById('status').textContent = "Time Student";
   document.getElementById('sessionInfo').textContent = `1 / ${totalSessions} sessions`;
   sessionCount = 1;
   alertDiv.classList.add('hidden'); // Esconde o alerta ao resetar
