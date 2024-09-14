@@ -60,7 +60,7 @@ button {
 }
 
 button:hover {
-    background-color: #4CAF50; /* Cor de fundo ao passar o mouse */
+    background-color: #4682B4   ; /* Cor de fundo ao passar o mouse */
 }
 
 #alert {
