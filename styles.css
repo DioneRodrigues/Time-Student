@@ -1,73 +1,103 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: transparent; /* Fundo transparente */
+    background-color: #f0f0f0; /* Cor de fundo clara para contraste */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-  }
-  
-  .pomodoro-container {
+}
+
+.pomodoro-container {
     background-color: #223559;
-    border-radius: 15px;
     padding: 20px;
     text-align: center;
-    width: 200px;
-    position: relative;
-  }
-  
-  #timerDisplay {
-    font-size: 32px;
+    width: 250px; /* Largura ligeiramente maior para mais espaço */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para destaque */
+}
+
+.title {
+    font-size: 24px; /* Tamanho do título para destaque */
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 15px; /* Espaçamento abaixo do título */
+}
+
+#timerDisplay {
+    font-size: 40px; /* Tamanho maior para melhor legibilidade */
     font-weight: bold;
     color: #ffffff;
     background-color: transparent;
     border: none;
-    text-align: center;
-    width: 90px;
+    margin: 0;
     cursor: pointer;
-  }
-  
-  #sessionInfo {
-    font-size: 12px;
-    margin-top: 5px;
+}
+
+#sessionInfo {
+    font-size: 14px; /* Tamanho um pouco maior para mais legibilidade */
     color: #b0b0b0;
-  }
-  
-  .controls {
+    margin-top: 8px; /* Espaço maior entre o timer e a informação */
+}
+
+#status{
+    color: #ffffff;
+}
+
+.controls {
     display: flex;
-    justify-content: space-around;
-    margin-top: 15px;
-  }
-  
-  button {
-    background: none;
+    justify-content: space-between; /* Melhor distribuição dos botões */
+    margin-top: 20px; /* Mais espaço acima dos controles */
+}
+
+button {
     border: none;
+    border-radius: 5px; /* Cantos arredondados para um visual mais suave */
     font-size: 18px;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
-  }
-  
-  button:hover {
-    color: #4CAF50;
-  }
-  
-  #alert {
-    color: red;
+    padding: 8px 12px; /* Espaçamento interno para melhor usabilidade */
+    transition: background-color 0.3s; /* Transição suave na mudança de cor */
+}
+
+button:hover {
+    background-color: #4CAF50; /* Cor de fundo ao passar o mouse */
+}
+
+#alert {
+    color: #ff0000; /* Cor de alerta mais visível */
     font-size: 16px;
-    margin-top: 10px;
-  }
-  
-  .hidden {
+    margin-top: 15px; /* Mais espaço acima da mensagem de alerta */
+}
+
+.hidden {
     display: none;
-  }
-  
-  input {
+}
+
+input {
     background-color: transparent;
     border: none;
     color: #ffffff;
-    font-size: 32px;
+    font-size: 40px; /* Tamanho maior para melhor legibilidade */
     font-weight: bold;
     text-align: center;
-  }
-  
+    width: 100%; /* Ocupa toda a largura disponível */
+    box-sizing: border-box; /* Inclui o padding e border no cálculo da largura */
+}
+
+#startButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pauseButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resetButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

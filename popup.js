@@ -76,7 +76,7 @@ startButton.addEventListener('click', () => {
     isPaused = false;
     isRunning = true;
     // Se o timer estiver na pausa, o tempo de pausa deve ser usado
-    if (document.getElementById('status').textContent === "Short Break") {
+    if (document.getElementById('status').textContent === "Pausa") {
       initialTime = breakTime; // Define o tempo de pausa
     } else {
       initialTime = parseInt(timerInput.value.split(':')[0]) * 60; // Pega o valor editado no timer para o Pomodoro
