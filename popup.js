@@ -50,7 +50,7 @@ function startTimer(duration) {
             sessionCount = 1;
           }
           initialTime = breakTime;
-          document.getElementById('status').textContent = "Short Break"; // Mudando para o modo de pausa
+          document.getElementById('status').textContent = "Pausa"; // Mudando para o modo de pausa
         } else {
           initialTime = pomodoroTime;
           document.getElementById('status').textContent = "Time Student"; // Voltando ao modo Pomodoro
