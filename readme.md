@@ -66,6 +66,14 @@ TIME STUDENT/
 
 - Adicionar suporte para sessões personalizáveis.
 
+
+## Autores
+
+- [@CarlosDupont](https://github.com/dupontcam)
+- [@DanielTorres](https://github.com/DanielTrrs)
+- [@KaryneSousa](https://github.com/sousakaryne)
+- [@DioneRodrigues](https://github.com/DioneRodrigues)
+
 ## 📜 Licença
 
 Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o arquivo [LICENSE](LICENSE).
