@@ -15,6 +15,8 @@ const startButton = document.getElementById('startButton');
 const pauseButton = document.getElementById('pauseButton');
 const resetButton = document.getElementById('resetButton');
 
+timerInput.readOnly = true;
+
 // Atualiza o display do tempo
 function updateDisplay(minutes, seconds) {
   timerInput.value = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
@@ -106,8 +108,8 @@ resetButton.addEventListener('click', () => {
   isPaused = false;
   isRunning = false;
 
-  // Reinicia o tempo com base no valor do campo de entrada
-  pomodoroTime = parseInt(timerInput.value.split(':')[0]) * 60;
+  // Sempre reinicia para 25 minutos
+  pomodoroTime = 25 * 60;
   initialTime = pomodoroTime;
   timeLeft = initialTime;
 
