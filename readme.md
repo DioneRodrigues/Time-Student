@@ -1,5 +1,9 @@
 # ⏱ Time Student - Extensão do Chrome
 
+## Screenshots
+
+![App Screenshot](https://github.com/DioneRodrigues/Time-Student/blob/main/img/timestudent.png)
+
 O *Time Student* é uma extensão simples e funcional para o Google Chrome que te ajuda a gerenciar seu tempo usando a técnica Pomodoro! 🍅 Ele oferece um timer de 25 minutos para focar em suas tarefas, com botões intuitivos para iniciar e parar a contagem.
 
 ## 🌟 Funcionalidades
