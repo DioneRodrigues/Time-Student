@@ -11,7 +11,7 @@ O *Time Student* é uma extensão simples e funcional para o Google Chrome que t
 
 ## 📂 Estrutura do Projeto
 
-bash
+```bash
 TIME STUDENT/
 │
 ├── assets/               # Pasta contendo arquivos de áudio utilizados pela extensão
@@ -37,7 +37,7 @@ TIME STUDENT/
 │
 ├── manifest.json         # Arquivo de configuração da extensão do navegador
 └── readme.md             # Documento de instruções e explicações sobre a extensão
-
+```
 
 
 ## 🚀 Como Instalar Localmente
